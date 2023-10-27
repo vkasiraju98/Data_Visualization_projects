@@ -328,7 +328,7 @@
                             .style("opacity", 0.9);
                         tooltip.html(`County: ${county}<br>FIPS STCO: ${d['properties']['FIPS_STCO']}<br>Town: ${d['properties']['TOWN']}<br>Town ID: ${d['properties']['TOWN_ID']}<br>Population in 1980: ${d['properties']['POP1980']}<br>Population in 1990: ${d['properties']['POP1990']}<br>Population in 2010: ${d['properties']['POP2010']}<br>Population in 2000: ${d['properties']['POP2000']}<br>Population Change (2000-2010): ${d['properties']['POPCH00_10']}<br>Population Change (1990-2000): ${d['properties']['POPCH90_00']}<br>Population Change (1980-1990): ${d['properties']['POPCH80_90']}`)
                             .style("left", event.clientX + "px")
-                            .style("top", event.clientY + 1050 + "px");
+                            .style("top", event.clientY + 850 + "px");
                     })
 
                     .on("mouseleave", (event, d) => {
